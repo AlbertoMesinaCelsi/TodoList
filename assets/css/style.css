@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif  ;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  border: 1px solid grey;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 30px;
+  background-color: rgb(233, 227, 220);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+.tareas {
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+  
+li {
+  margin: 5px;
+}
+
+.eliminar {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  padding: 2px;
+  border: none;
+}
+
+#agregarTarea {
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+}
+
+#nuevaTarea {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px grey solid;
+}
+
+.tareasCompletadas {
+  text-decoration: line-through;
+  color: grey;
+}
